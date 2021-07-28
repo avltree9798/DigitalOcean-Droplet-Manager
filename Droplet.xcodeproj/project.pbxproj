@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44863E4126B19DE1006E689F /* DropletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E3326B19DE0006E689F /* DropletApp.swift */; };
+		44863E4226B19DE1006E689F /* DropletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E3326B19DE0006E689F /* DropletApp.swift */; };
+		44863E4526B19DE1006E689F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44863E3526B19DE1006E689F /* Assets.xcassets */; };
+		44863E4626B19DE1006E689F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44863E3526B19DE1006E689F /* Assets.xcassets */; };
+		44863E7F26B19E08006E689F /* APICallReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5126B19E08006E689F /* APICallReturn.swift */; };
+		44863E8026B19E08006E689F /* APICallReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5126B19E08006E689F /* APICallReturn.swift */; };
+		44863E8126B19E08006E689F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5226B19E08006E689F /* NetworkManager.swift */; };
+		44863E8226B19E08006E689F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5226B19E08006E689F /* NetworkManager.swift */; };
+		44863E8326B19E08006E689F /* CustomAlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5426B19E08006E689F /* CustomAlertContext.swift */; };
+		44863E8426B19E08006E689F /* CustomAlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5426B19E08006E689F /* CustomAlertContext.swift */; };
+		44863E8526B19E08006E689F /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5526B19E08006E689F /* CustomAlert.swift */; };
+		44863E8626B19E08006E689F /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5526B19E08006E689F /* CustomAlert.swift */; };
+		44863E8726B19E08006E689F /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5726B19E08006E689F /* KeychainManager.swift */; };
+		44863E8826B19E08006E689F /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5726B19E08006E689F /* KeychainManager.swift */; };
+		44863E8926B19E08006E689F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5926B19E08006E689F /* Session.swift */; };
+		44863E8A26B19E08006E689F /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5926B19E08006E689F /* Session.swift */; };
+		44863E8B26B19E08006E689F /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5C26B19E08006E689F /* NetworkView.swift */; };
+		44863E8C26B19E08006E689F /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5C26B19E08006E689F /* NetworkView.swift */; };
+		44863E8D26B19E08006E689F /* DropletDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5D26B19E08006E689F /* DropletDetailView.swift */; };
+		44863E8E26B19E08006E689F /* DropletDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5D26B19E08006E689F /* DropletDetailView.swift */; };
+		44863E8F26B19E08006E689F /* SpecificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5E26B19E08006E689F /* SpecificationView.swift */; };
+		44863E9026B19E08006E689F /* SpecificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5E26B19E08006E689F /* SpecificationView.swift */; };
+		44863E9126B19E08006E689F /* DropletDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5F26B19E08006E689F /* DropletDetailViewModel.swift */; };
+		44863E9226B19E08006E689F /* DropletDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E5F26B19E08006E689F /* DropletDetailViewModel.swift */; };
+		44863E9326B19E08006E689F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6126B19E08006E689F /* LoadingView.swift */; };
+		44863E9426B19E08006E689F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6126B19E08006E689F /* LoadingView.swift */; };
+		44863E9526B19E08006E689F /* DropletListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6326B19E08006E689F /* DropletListViewModel.swift */; };
+		44863E9626B19E08006E689F /* DropletListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6326B19E08006E689F /* DropletListViewModel.swift */; };
+		44863E9726B19E08006E689F /* DropletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6426B19E08006E689F /* DropletListView.swift */; };
+		44863E9826B19E08006E689F /* DropletListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6426B19E08006E689F /* DropletListView.swift */; };
+		44863E9926B19E08006E689F /* DropletListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6526B19E08006E689F /* DropletListCellView.swift */; };
+		44863E9A26B19E08006E689F /* DropletListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6526B19E08006E689F /* DropletListCellView.swift */; };
+		44863E9B26B19E08006E689F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6726B19E08006E689F /* LoginViewModel.swift */; };
+		44863E9C26B19E08006E689F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6726B19E08006E689F /* LoginViewModel.swift */; };
+		44863E9D26B19E08006E689F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6826B19E08006E689F /* LoginView.swift */; };
+		44863E9E26B19E08006E689F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6826B19E08006E689F /* LoginView.swift */; };
+		44863E9F26B19E08006E689F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6B26B19E08006E689F /* Network.swift */; };
+		44863EA026B19E08006E689F /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6B26B19E08006E689F /* Network.swift */; };
+		44863EA126B19E08006E689F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6C26B19E08006E689F /* Image.swift */; };
+		44863EA226B19E08006E689F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6C26B19E08006E689F /* Image.swift */; };
+		44863EA326B19E08006E689F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6D26B19E08006E689F /* Size.swift */; };
+		44863EA426B19E08006E689F /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6D26B19E08006E689F /* Size.swift */; };
+		44863EA526B19E08006E689F /* NetworkV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6E26B19E08006E689F /* NetworkV4.swift */; };
+		44863EA626B19E08006E689F /* NetworkV4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6E26B19E08006E689F /* NetworkV4.swift */; };
+		44863EA726B19E08006E689F /* NetworkV6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6F26B19E08006E689F /* NetworkV6.swift */; };
+		44863EA826B19E08006E689F /* NetworkV6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E6F26B19E08006E689F /* NetworkV6.swift */; };
+		44863EA926B19E08006E689F /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7026B19E08006E689F /* Region.swift */; };
+		44863EAA26B19E08006E689F /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7026B19E08006E689F /* Region.swift */; };
+		44863EAB26B19E08006E689F /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7126B19E08006E689F /* IP.swift */; };
+		44863EAC26B19E08006E689F /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7126B19E08006E689F /* IP.swift */; };
+		44863EAD26B19E08006E689F /* BackupWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7226B19E08006E689F /* BackupWindow.swift */; };
+		44863EAE26B19E08006E689F /* BackupWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7226B19E08006E689F /* BackupWindow.swift */; };
+		44863EAF26B19E08006E689F /* Droplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7326B19E08006E689F /* Droplet.swift */; };
+		44863EB026B19E08006E689F /* Droplet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7326B19E08006E689F /* Droplet.swift */; };
+		44863EB126B19E08006E689F /* DropletRefreshResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7526B19E08006E689F /* DropletRefreshResponse.swift */; };
+		44863EB226B19E08006E689F /* DropletRefreshResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7526B19E08006E689F /* DropletRefreshResponse.swift */; };
+		44863EB326B19E08006E689F /* IPGeolocatorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7626B19E08006E689F /* IPGeolocatorResponse.swift */; };
+		44863EB426B19E08006E689F /* IPGeolocatorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7626B19E08006E689F /* IPGeolocatorResponse.swift */; };
+		44863EB526B19E08006E689F /* DropletListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7726B19E08006E689F /* DropletListResponse.swift */; };
+		44863EB626B19E08006E689F /* DropletListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7726B19E08006E689F /* DropletListResponse.swift */; };
+		44863EB726B19E08006E689F /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7926B19E08006E689F /* Meta.swift */; };
+		44863EB826B19E08006E689F /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7926B19E08006E689F /* Meta.swift */; };
+		44863EB926B19E08006E689F /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7B26B19E08006E689F /* Link.swift */; };
+		44863EBA26B19E08006E689F /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7B26B19E08006E689F /* Link.swift */; };
+		44863EBB26B19E08006E689F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7C26B19E08006E689F /* Page.swift */; };
+		44863EBC26B19E08006E689F /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7C26B19E08006E689F /* Page.swift */; };
+		44863EBD26B19E08006E689F /* Billing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7E26B19E08006E689F /* Billing.swift */; };
+		44863EBE26B19E08006E689F /* Billing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44863E7E26B19E08006E689F /* Billing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44863E3326B19DE0006E689F /* DropletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropletApp.swift; sourceTree = "<group>"; };
+		44863E3526B19DE1006E689F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44863E3A26B19DE1006E689F /* Droplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Droplet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44863E4026B19DE1006E689F /* Droplet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Droplet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44863E5126B19E08006E689F /* APICallReturn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APICallReturn.swift; sourceTree = "<group>"; };
+		44863E5226B19E08006E689F /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		44863E5426B19E08006E689F /* CustomAlertContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertContext.swift; sourceTree = "<group>"; };
+		44863E5526B19E08006E689F /* CustomAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		44863E5726B19E08006E689F /* KeychainManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		44863E5926B19E08006E689F /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		44863E5C26B19E08006E689F /* NetworkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		44863E5D26B19E08006E689F /* DropletDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletDetailView.swift; sourceTree = "<group>"; };
+		44863E5E26B19E08006E689F /* SpecificationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecificationView.swift; sourceTree = "<group>"; };
+		44863E5F26B19E08006E689F /* DropletDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletDetailViewModel.swift; sourceTree = "<group>"; };
+		44863E6126B19E08006E689F /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		44863E6326B19E08006E689F /* DropletListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletListViewModel.swift; sourceTree = "<group>"; };
+		44863E6426B19E08006E689F /* DropletListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletListView.swift; sourceTree = "<group>"; };
+		44863E6526B19E08006E689F /* DropletListCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletListCellView.swift; sourceTree = "<group>"; };
+		44863E6726B19E08006E689F /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		44863E6826B19E08006E689F /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		44863E6B26B19E08006E689F /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		44863E6C26B19E08006E689F /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		44863E6D26B19E08006E689F /* Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		44863E6E26B19E08006E689F /* NetworkV4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkV4.swift; sourceTree = "<group>"; };
+		44863E6F26B19E08006E689F /* NetworkV6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkV6.swift; sourceTree = "<group>"; };
+		44863E7026B19E08006E689F /* Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		44863E7126B19E08006E689F /* IP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		44863E7226B19E08006E689F /* BackupWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackupWindow.swift; sourceTree = "<group>"; };
+		44863E7326B19E08006E689F /* Droplet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Droplet.swift; sourceTree = "<group>"; };
+		44863E7526B19E08006E689F /* DropletRefreshResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletRefreshResponse.swift; sourceTree = "<group>"; };
+		44863E7626B19E08006E689F /* IPGeolocatorResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPGeolocatorResponse.swift; sourceTree = "<group>"; };
+		44863E7726B19E08006E689F /* DropletListResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropletListResponse.swift; sourceTree = "<group>"; };
+		44863E7926B19E08006E689F /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		44863E7B26B19E08006E689F /* Link.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		44863E7C26B19E08006E689F /* Page.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		44863E7E26B19E08006E689F /* Billing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Billing.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44863E3726B19DE1006E689F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44863E3D26B19DE1006E689F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44863E2D26B19DE0006E689F = {
+			isa = PBXGroup;
+			children = (
+				44863E3226B19DE0006E689F /* Shared */,
+				44863E3B26B19DE1006E689F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44863E3226B19DE0006E689F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				44863E6926B19E08006E689F /* Models */,
+				44863E4F26B19E08006E689F /* Utilities */,
+				44863E5A26B19E08006E689F /* Views */,
+				44863E3326B19DE0006E689F /* DropletApp.swift */,
+				44863E3526B19DE1006E689F /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		44863E3B26B19DE1006E689F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44863E3A26B19DE1006E689F /* Droplet.app */,
+				44863E4026B19DE1006E689F /* Droplet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44863E4F26B19E08006E689F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5026B19E08006E689F /* Network */,
+				44863E5326B19E08006E689F /* Alert */,
+				44863E5626B19E08006E689F /* Keychain */,
+				44863E5826B19E08006E689F /* Session */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		44863E5026B19E08006E689F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5126B19E08006E689F /* APICallReturn.swift */,
+				44863E5226B19E08006E689F /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		44863E5326B19E08006E689F /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5426B19E08006E689F /* CustomAlertContext.swift */,
+				44863E5526B19E08006E689F /* CustomAlert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		44863E5626B19E08006E689F /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5726B19E08006E689F /* KeychainManager.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		44863E5826B19E08006E689F /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5926B19E08006E689F /* Session.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		44863E5A26B19E08006E689F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5B26B19E08006E689F /* DropletDetail */,
+				44863E6026B19E08006E689F /* Loading */,
+				44863E6226B19E08006E689F /* DropletList */,
+				44863E6626B19E08006E689F /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44863E5B26B19E08006E689F /* DropletDetail */ = {
+			isa = PBXGroup;
+			children = (
+				44863E5C26B19E08006E689F /* NetworkView.swift */,
+				44863E5D26B19E08006E689F /* DropletDetailView.swift */,
+				44863E5E26B19E08006E689F /* SpecificationView.swift */,
+				44863E5F26B19E08006E689F /* DropletDetailViewModel.swift */,
+			);
+			path = DropletDetail;
+			sourceTree = "<group>";
+		};
+		44863E6026B19E08006E689F /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				44863E6126B19E08006E689F /* LoadingView.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		44863E6226B19E08006E689F /* DropletList */ = {
+			isa = PBXGroup;
+			children = (
+				44863E6326B19E08006E689F /* DropletListViewModel.swift */,
+				44863E6426B19E08006E689F /* DropletListView.swift */,
+				44863E6526B19E08006E689F /* DropletListCellView.swift */,
+			);
+			path = DropletList;
+			sourceTree = "<group>";
+		};
+		44863E6626B19E08006E689F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				44863E6726B19E08006E689F /* LoginViewModel.swift */,
+				44863E6826B19E08006E689F /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		44863E6926B19E08006E689F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				44863E6A26B19E08006E689F /* Droplet */,
+				44863E7426B19E08006E689F /* Responses */,
+				44863E7826B19E08006E689F /* Meta */,
+				44863E7A26B19E08006E689F /* Link */,
+				44863E7D26B19E08006E689F /* Billing */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44863E6A26B19E08006E689F /* Droplet */ = {
+			isa = PBXGroup;
+			children = (
+				44863E6B26B19E08006E689F /* Network.swift */,
+				44863E6C26B19E08006E689F /* Image.swift */,
+				44863E6D26B19E08006E689F /* Size.swift */,
+				44863E6E26B19E08006E689F /* NetworkV4.swift */,
+				44863E6F26B19E08006E689F /* NetworkV6.swift */,
+				44863E7026B19E08006E689F /* Region.swift */,
+				44863E7126B19E08006E689F /* IP.swift */,
+				44863E7226B19E08006E689F /* BackupWindow.swift */,
+				44863E7326B19E08006E689F /* Droplet.swift */,
+			);
+			path = Droplet;
+			sourceTree = "<group>";
+		};
+		44863E7426B19E08006E689F /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				44863E7526B19E08006E689F /* DropletRefreshResponse.swift */,
+				44863E7626B19E08006E689F /* IPGeolocatorResponse.swift */,
+				44863E7726B19E08006E689F /* DropletListResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		44863E7826B19E08006E689F /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				44863E7926B19E08006E689F /* Meta.swift */,
+			);
+			path = Meta;
+			sourceTree = "<group>";
+		};
+		44863E7A26B19E08006E689F /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				44863E7B26B19E08006E689F /* Link.swift */,
+				44863E7C26B19E08006E689F /* Page.swift */,
+			);
+			path = Link;
+			sourceTree = "<group>";
+		};
+		44863E7D26B19E08006E689F /* Billing */ = {
+			isa = PBXGroup;
+			children = (
+				44863E7E26B19E08006E689F /* Billing.swift */,
+			);
+			path = Billing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44863E3926B19DE1006E689F /* Droplet (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44863E4926B19DE1006E689F /* Build configuration list for PBXNativeTarget "Droplet (iOS)" */;
+			buildPhases = (
+				44863E3626B19DE1006E689F /* Sources */,
+				44863E3726B19DE1006E689F /* Frameworks */,
+				44863E3826B19DE1006E689F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Droplet (iOS)";
+			productName = "Droplet (iOS)";
+			productReference = 44863E3A26B19DE1006E689F /* Droplet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44863E3F26B19DE1006E689F /* Droplet (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44863E4C26B19DE1006E689F /* Build configuration list for PBXNativeTarget "Droplet (macOS)" */;
+			buildPhases = (
+				44863E3C26B19DE1006E689F /* Sources */,
+				44863E3D26B19DE1006E689F /* Frameworks */,
+				44863E3E26B19DE1006E689F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Droplet (macOS)";
+			productName = "Droplet (macOS)";
+			productReference = 44863E4026B19DE1006E689F /* Droplet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44863E2E26B19DE0006E689F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					44863E3926B19DE1006E689F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					44863E3F26B19DE1006E689F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 44863E3126B19DE0006E689F /* Build configuration list for PBXProject "Droplet" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44863E2D26B19DE0006E689F;
+			productRefGroup = 44863E3B26B19DE1006E689F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44863E3926B19DE1006E689F /* Droplet (iOS) */,
+				44863E3F26B19DE1006E689F /* Droplet (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44863E3826B19DE1006E689F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44863E4526B19DE1006E689F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44863E3E26B19DE1006E689F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44863E4626B19DE1006E689F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44863E3626B19DE1006E689F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44863E8126B19E08006E689F /* NetworkManager.swift in Sources */,
+				44863EA326B19E08006E689F /* Size.swift in Sources */,
+				44863EA926B19E08006E689F /* Region.swift in Sources */,
+				44863E9726B19E08006E689F /* DropletListView.swift in Sources */,
+				44863E8D26B19E08006E689F /* DropletDetailView.swift in Sources */,
+				44863E9526B19E08006E689F /* DropletListViewModel.swift in Sources */,
+				44863EB126B19E08006E689F /* DropletRefreshResponse.swift in Sources */,
+				44863EB726B19E08006E689F /* Meta.swift in Sources */,
+				44863E9926B19E08006E689F /* DropletListCellView.swift in Sources */,
+				44863E8F26B19E08006E689F /* SpecificationView.swift in Sources */,
+				44863E8726B19E08006E689F /* KeychainManager.swift in Sources */,
+				44863E8B26B19E08006E689F /* NetworkView.swift in Sources */,
+				44863EA126B19E08006E689F /* Image.swift in Sources */,
+				44863E8326B19E08006E689F /* CustomAlertContext.swift in Sources */,
+				44863EAB26B19E08006E689F /* IP.swift in Sources */,
+				44863E9B26B19E08006E689F /* LoginViewModel.swift in Sources */,
+				44863EBD26B19E08006E689F /* Billing.swift in Sources */,
+				44863EBB26B19E08006E689F /* Page.swift in Sources */,
+				44863E8926B19E08006E689F /* Session.swift in Sources */,
+				44863EB526B19E08006E689F /* DropletListResponse.swift in Sources */,
+				44863EB926B19E08006E689F /* Link.swift in Sources */,
+				44863E9F26B19E08006E689F /* Network.swift in Sources */,
+				44863E9D26B19E08006E689F /* LoginView.swift in Sources */,
+				44863E9126B19E08006E689F /* DropletDetailViewModel.swift in Sources */,
+				44863E8526B19E08006E689F /* CustomAlert.swift in Sources */,
+				44863EA526B19E08006E689F /* NetworkV4.swift in Sources */,
+				44863E7F26B19E08006E689F /* APICallReturn.swift in Sources */,
+				44863E9326B19E08006E689F /* LoadingView.swift in Sources */,
+				44863EA726B19E08006E689F /* NetworkV6.swift in Sources */,
+				44863E4126B19DE1006E689F /* DropletApp.swift in Sources */,
+				44863EB326B19E08006E689F /* IPGeolocatorResponse.swift in Sources */,
+				44863EAF26B19E08006E689F /* Droplet.swift in Sources */,
+				44863EAD26B19E08006E689F /* BackupWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44863E3C26B19DE1006E689F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44863E8226B19E08006E689F /* NetworkManager.swift in Sources */,
+				44863EA426B19E08006E689F /* Size.swift in Sources */,
+				44863EAA26B19E08006E689F /* Region.swift in Sources */,
+				44863E9826B19E08006E689F /* DropletListView.swift in Sources */,
+				44863E8E26B19E08006E689F /* DropletDetailView.swift in Sources */,
+				44863E9626B19E08006E689F /* DropletListViewModel.swift in Sources */,
+				44863EB226B19E08006E689F /* DropletRefreshResponse.swift in Sources */,
+				44863EB826B19E08006E689F /* Meta.swift in Sources */,
+				44863E9A26B19E08006E689F /* DropletListCellView.swift in Sources */,
+				44863E9026B19E08006E689F /* SpecificationView.swift in Sources */,
+				44863E8826B19E08006E689F /* KeychainManager.swift in Sources */,
+				44863E8C26B19E08006E689F /* NetworkView.swift in Sources */,
+				44863EA226B19E08006E689F /* Image.swift in Sources */,
+				44863E8426B19E08006E689F /* CustomAlertContext.swift in Sources */,
+				44863EAC26B19E08006E689F /* IP.swift in Sources */,
+				44863E9C26B19E08006E689F /* LoginViewModel.swift in Sources */,
+				44863EBE26B19E08006E689F /* Billing.swift in Sources */,
+				44863EBC26B19E08006E689F /* Page.swift in Sources */,
+				44863E8A26B19E08006E689F /* Session.swift in Sources */,
+				44863EB626B19E08006E689F /* DropletListResponse.swift in Sources */,
+				44863EBA26B19E08006E689F /* Link.swift in Sources */,
+				44863EA026B19E08006E689F /* Network.swift in Sources */,
+				44863E9E26B19E08006E689F /* LoginView.swift in Sources */,
+				44863E9226B19E08006E689F /* DropletDetailViewModel.swift in Sources */,
+				44863E8626B19E08006E689F /* CustomAlert.swift in Sources */,
+				44863EA626B19E08006E689F /* NetworkV4.swift in Sources */,
+				44863E8026B19E08006E689F /* APICallReturn.swift in Sources */,
+				44863E9426B19E08006E689F /* LoadingView.swift in Sources */,
+				44863EA826B19E08006E689F /* NetworkV6.swift in Sources */,
+				44863E4226B19DE1006E689F /* DropletApp.swift in Sources */,
+				44863EB426B19E08006E689F /* IPGeolocatorResponse.swift in Sources */,
+				44863EB026B19E08006E689F /* Droplet.swift in Sources */,
+				44863EAE26B19E08006E689F /* BackupWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44863E4726B19DE1006E689F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44863E4826B19DE1006E689F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		44863E4A26B19DE1006E689F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6RB25ZNB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avltree9798.DropletManager;
+				PRODUCT_NAME = Droplet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44863E4B26B19DE1006E689F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6RB25ZNB7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avltree9798.DropletManager;
+				PRODUCT_NAME = Droplet;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44863E4D26B19DE1006E689F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6RB25ZNB7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avltree9798.Droplet;
+				PRODUCT_NAME = Droplet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		44863E4E26B19DE1006E689F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6RB25ZNB7;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.avltree9798.Droplet;
+				PRODUCT_NAME = Droplet;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44863E3126B19DE0006E689F /* Build configuration list for PBXProject "Droplet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44863E4726B19DE1006E689F /* Debug */,
+				44863E4826B19DE1006E689F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44863E4926B19DE1006E689F /* Build configuration list for PBXNativeTarget "Droplet (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44863E4A26B19DE1006E689F /* Debug */,
+				44863E4B26B19DE1006E689F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44863E4C26B19DE1006E689F /* Build configuration list for PBXNativeTarget "Droplet (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44863E4D26B19DE1006E689F /* Debug */,
+				44863E4E26B19DE1006E689F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44863E2E26B19DE0006E689F /* Project object */;
+}
